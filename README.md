@@ -1,4 +1,4 @@
-# Semi-Supervised Learning with GANs for Device-Free Fingerprinting Indoor Localization (IEEE GLOBECOM 2020)
+# Semi-Supervised Learning with VAEs for Device-Free Fingerprinting Indoor Localization
 ######  Last update: 6/9/2021
 ## Introduction:
 Implementation of semi-supervised variational auto-encoder (VAE) for Device Free Wi-Fi Fingerprinting Indoor Localization. 
