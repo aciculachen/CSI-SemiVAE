@@ -9,11 +9,10 @@ The code is inherited and modified from [here](https://github.com/bjlkeng/sandbo
 
 ## Features:
 
-- main.py: train the VAE model under the pre-defined indoor localization scenarios.
-- generate_CSI.py: Generate CSI samples with pretrained GAN model.
-- plot_CSI.py: code for plotting CSI samples
-- models.py: definde semisupervised VAE 
-- dataset: pre-collected CSI samples save as pickle in the form of (X_train, y_train, X_tst, y_tst)
+- **main.py**: train the VAE model under the pre-defined indoor localization scenarios.
+- **plot_CSI.py**: code for plotting CSI samples
+- **models.py**: definde semisupervised VAE 
+- **dataset**: pre-collected CSI samples save as pickle in the form of (X_train, y_train, X_tst, y_tst)
 ## Dependencies:
 - tensorflow 1.13
-- python 3.6
+- python 3.6.4
