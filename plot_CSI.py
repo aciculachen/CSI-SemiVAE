@@ -9,29 +9,8 @@ import matplotlib
 
 from utils import *
 
-
-
-#exp2
-#generated_samples =np.asarray(pickle.load(open('SVAE-X-14.pickle','rb'))).reshape(-1,120)
-
-#dataset = np.asarray(pickle.load(open('dataset/EXP2.pickle','rb')))
-#X_train, y_train, X_tst, y_tst = dataset
-
-#for target in range(14):
-#	for x_g in generated_samples[y_train==target]:
-#		plt.title('Location $p_{%d}$'%(target+1) , fontsize=20)
-#		plt.xlabel('CSI Index', fontsize=18)
-#		plt.ylabel('CSI Amplitude (Normalized)', fontsize=18)
-#		plt.axis([0, 120, 0, 1])
-#		plt.grid(True)
-
-#		plt.plot(x_g)
-#	plt.savefig('visualizations/EXP2/p%d.png'%(target+1), dpi=400)
-#	plt.savefig('visualizations/EXP2/p%d.eps'%(target+1), dpi=1)  
-#	plt.close() 
-
 def exp1():
-	generated_samples =np.asarray(pickle.load(open('SVAE-X-16.pickle','rb'))).reshape(-1,120)
+	generated_samples =np.asarray(pickle.load(open('dataset/reconstructed/SVAE-X-16.pickle','rb'))).reshape(-1,120)
 
 	dataset = np.asarray(pickle.load(open('dataset/EXP1.pickle','rb')))
 	X_train, y_train, X_tst, y_tst = dataset
@@ -55,7 +34,7 @@ def exp1():
 		plt.close() 
 
 def exp2():
-	generated_samples =np.asarray(pickle.load(open('SVAE-X-14.pickle','rb'))).reshape(-1,120)
+	generated_samples =np.asarray(pickle.load(open('dataset/reconstructed/SVAE-X-14.pickle','rb'))).reshape(-1,120)
 
 	dataset = np.asarray(pickle.load(open('dataset/EXP2.pickle','rb')))
 	X_train, y_train, X_tst, y_tst = dataset

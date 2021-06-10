@@ -46,9 +46,9 @@ def fit_model(labeled_vae, unlabeled_vae, X_unlabeled, X_labeled, y_labeled, epo
 
 def run_exp():
     # experiment setup #
-    dataset = data_preproc(np.asarray(pickle.load(open('dataset/EXP2.pickle','rb'))))
-    n_classes = 14
-    n_samples_list = [10752] #10752
+    dataset = data_preproc(np.asarray(pickle.load(open('dataset/EXP1.pickle','rb'))))
+    n_classes = 16
+    n_samples_list = [16] #10752
     batch_size = 180
     epochs = 100
     run_times = 1

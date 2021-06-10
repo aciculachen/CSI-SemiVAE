@@ -16,8 +16,8 @@ class SemiSupervisedVariatioanlAutoEncoder():
         self.num_classes = num_classes
         self.num_samples = num_samples
         self.input_shape = (1,120,1)
-        self.latent_dim = 16
-        self.intermediate_dim = 64
+        self.latent_dim = num_classes
+        self.intermediate_dim = num_classes
         self.epsilon_std = 1.0
         self.dec_filters = 32
         self.enc_filters = 32
