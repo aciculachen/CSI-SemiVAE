@@ -6,6 +6,7 @@ Implementation of semi-supervised variational auto-encoder (VAE) for Device Free
 The code is inherited and modified from [here](https://github.com/bjlkeng/sandbox/tree/master/notebooks/vae-semi_supervised_learning).
 ## Concept:
 <img src="https://github.com/aciculachen/CSI-SemiVAE/blob/master/sVAE.png" width="600">
+
 ## Features:
 
 - main.py: train the VAE model under the pre-defined indoor localization scenarios.
