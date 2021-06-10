@@ -1,5 +1,5 @@
 # Semi-Supervised Learning with VAEs for Device-Free Fingerprinting Indoor Localization
-######  Last update: 6/9/2021
+######  Last update: 6/10/2021
 ## Introduction:
 Implementation of semi-supervised variational auto-encoder (VAE) for Device Free Wi-Fi Fingerprinting Indoor Localization. 
 
