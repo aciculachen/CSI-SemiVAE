@@ -3,7 +3,7 @@
 ## Introduction:
 Implementation of semi-supervised variational auto-encoder (VAE) for Device Free Wi-Fi Fingerprinting Indoor Localization. 
 
-For more details and evaluation results, please check out our original [paper](https://www.citi.sinica.edu.tw/papers/rchang/8092-F.pdf).
+For more details and evaluation results, please check out our original [paper](https://www.citi.sinica.edu.tw/papers/rchang/8092-F.pdf), which will be published in IEEE GLOBECOM 2021.
 
 The code is inherited and modified from [here](https://github.com/bjlkeng/sandbox/tree/master/notebooks/vae-semi_supervised_learning).
 ## Concept:
